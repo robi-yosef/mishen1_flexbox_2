@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.2em;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container-fluid {
+    width: 100%;
+    padding: 0 15px;
+
+
+}
+
+.container {
+    max-width: 1000px;
+}
+
+/* HADER DISING */
+header {
+    min-height: 50px;
+    background-color: lightgray;
+    color: rgb(71, 69, 69);
+
+}
+
+header.container {
+    display: flex;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+#your {
+    font-weight: 100;
+}
+
+#logo {
+    font-weight: 700;
+}
+
+
+/* STRIP DISING */
+
+.strip {
+    background-image: url(images/bluebg.png);
+
+}
+
+.strip .container {
+    min-height: 200px;
+    max-width: 100%;
+    border: none;
+    padding: 15px;
+    margin: 0;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.strip .your-strip {
+    max-width: 60%;
+    justify-content: left;
+}
+
+/* FORM DISING */
+.strip .form-style {
+    min-width: 30%;
+    justify-content: flex-end;
+    background-color: rgb(164, 209, 245);
+    padding: 0 25px;
+    margin: 0;
+}
+
+#fname {
+    border: none;
+    width: 100%;
+    height: 30px;
+    margin: 0 0 10px 0;
+
+}
+
+#femail {
+    border: none;
+    width: 100%;
+    height: 30px;
+    margin: 0 0 10px 0;
+
+}
+
+#fphone {
+    border: none;
+    width: 100%;
+    height: 30px;
+    margin: 0 0 15px 0;
+
+}
+
+#button {
+    cursor: pointer;
+    min-width: 100%;
+    height: 40px;
+    background-color: orange;
+    color: white;
+    border: none;
+    font-size: larger;
+    flex-wrap: wrap row;
+}
+
+#privacy {
+    font-size: small;
+    justify-items: stretch;
+}
+
+/* MAIN DISING */
+main {
+    min-height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    margin: 0;
+
+}
+
+main .container {
+    padding: 0 20px 0 0;
+    max-width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-flow: wrap column; */
+    justify-content: space-between;
+    padding: 30px 0px;
+    justify-items: center;
+    text-align: center;
+
+}
+
+.box-1 {
+    text-align: center;
+    max-width: 30%;
+    color: gray;
+}
+
+.box-2 {
+    text-align: center;
+    max-width: 30%;
+    color: gray;
+}
+
+.box-3 {
+    text-align: center;
+    max-width: 30%;
+    color: gray;
+}
+
+
+ main .pic {
+    max-width: 100%;
+    
+    padding: 40px 0;
+    text-align: center;
+    justify-items: center;
+ }
+
+
+.rounded-circle {
+    border-radius: 50%;
+    width: 10%;
+    height: 10%;
+    border: 2px solid rgb(174, 164, 164);
+}
+.text-photo {
+    text-align: center;
+ max-width: 65%;
+align-items: center;
+    justify-content: center;
+
+}
+
+.pic-text {
+    font-size: large;
+}
+
+/* FOOTER DISING  */
+footer {
+    min-height: 50px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+footer .container {
+    padding: 15px;
+    text-align: center;
+    font-size: small;
+    display: flex;
+
+
+}
+/* MADIA */
+@media (max-width: 600px) {
+    .container {
+      flex-direction: column;
+      text-align: left;
+    }
+    .box-1 .box-2 .box-3 {
+        text-align: left;
+        
+    }
+  }
+
+
